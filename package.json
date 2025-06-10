@@ -1,0 +1,32 @@
+{
+  "name": "movie-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "tsc --watch",
+    "start": "npx sequelize db:migrate && nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/mysql": "^2.15.27",
+    "@types/pg": "^8.15.4",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0",
+    "sequelize": "^6.37.7",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "sequelize-cli": "^6.6.3"
+  }
+}
